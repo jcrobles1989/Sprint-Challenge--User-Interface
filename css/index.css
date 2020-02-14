@@ -72,7 +72,7 @@ p {
 }
 
 .about-page {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     border: solid blue 2px;
     background: lightgray;
 }
@@ -227,31 +227,59 @@ footer nav a {
 
 .mid-top {
     display: flex;
-    /* align-content: center; */
     padding-top: 5px;
     padding-bottom: 10px;
-    border: solid red 1px;
+    /* border: solid red 1px; */
 }
 
 .mid-top .strategy {
     border-bottom: 1px dashed black;
-    border: solid green 1px;
+    /* border: solid green 1px; */
 }
 
 .mid-top .how {
     border-bottom: 1px dashed black;
-    border: solid blue 1px;
+    /* border: solid blue 1px; */
 
 }
 
 .mid-bottom {
     display: flex;
+    padding-bottom: 60px;
+    border: solid red 2px;
 }
 
 .mid-bottom .places {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: column wrap; */
+    align-content: space-evenly;
+    /* padding-bottom: 80px;
     border-bottom: 1px dashed black;
+    border: solid blue 2px;
+    background: lightpink; */
 }
 
 .mid-bottom .collab {
     border-bottom: 1px dashed black;
+    border: solid green 2px;
+}
+
+.bottom-section {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: solid green 2px; */
+}
+
+.about-footer {
+    margin-top: 40px;
+    /* border: solid red 2px; */
+}
+
+.mid-bottom .places {
+    padding-bottom: 80px;
+    border-bottom: 1px dashed black;
+    border: solid blue 2px;
+    background: lightpink;
 }
