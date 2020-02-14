@@ -76,43 +76,22 @@ p {
 header {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: baseline;
     padding-top: 20px;
     height: 100px;
-    /* border: 2px solid black; */
-    /* background: lightpink; */
 }
 
 nav a{
+    margin: 30px;
     text-decoration: none;
     color: black;
 }
 
-/* .navigation {
-
-    display: flex;
-    height: 60%;
-    padding-left: 70%;
-    border: 2px solid red;
-    background: gray;
+.navigation {
+    margin-left: 30px;
 }
-
-.navigation a {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: black;
-    border: 1px solid red;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    width: 80%;
-    height: 60%;
-    border: 2px solid blue;
-} */
 
 .top-content {
     display: flex;
@@ -120,6 +99,10 @@ nav a{
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content .top-content-img {
+    margin-bottom:20px; 
 }
 
 .top-content .text-container {
@@ -229,6 +212,12 @@ footer nav a {
 }
 
 /* about section starts here */
+
+.top-content .about {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .mid-top {
     display: flex;
