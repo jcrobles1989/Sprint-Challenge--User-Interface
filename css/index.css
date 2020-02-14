@@ -71,6 +71,12 @@ p {
     margin: 0 auto;
 }
 
+.about-page {
+    padding-bottom: 150px;
+    border: solid blue 2px;
+    background: lightgray;
+}
+
 /* my code starts here */
 
 header {
@@ -221,9 +227,31 @@ footer nav a {
 
 .mid-top {
     display: flex;
+    /* align-content: center; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: solid red 1px;
+}
+
+.mid-top .strategy {
+    border-bottom: 1px dashed black;
+    border: solid green 1px;
+}
+
+.mid-top .how {
+    border-bottom: 1px dashed black;
+    border: solid blue 1px;
+
 }
 
 .mid-bottom {
     display: flex;
 }
 
+.mid-bottom .places {
+    border-bottom: 1px dashed black;
+}
+
+.mid-bottom .collab {
+    border-bottom: 1px dashed black;
+}
