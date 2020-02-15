@@ -71,11 +71,10 @@ p {
     margin: 0 auto;
 }
 
-.about-page {
-    padding-bottom: 100px;
+/* .about-page {
     border: solid blue 2px;
     background: lightgray;
-}
+} */
 
 /* my code starts here */
 
@@ -227,59 +226,72 @@ footer nav a {
 
 .mid-top {
     display: flex;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    /* border: solid red 1px; */
 }
 
 .mid-top .strategy {
     border-bottom: 1px dashed black;
-    /* border: solid green 1px; */
+}
+
+.mid-top .strategy div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .mid-top .how {
     border-bottom: 1px dashed black;
-    /* border: solid blue 1px; */
+}
 
+.mid-top .how div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
 .mid-bottom {
     display: flex;
-    padding-bottom: 60px;
-    border: solid red 2px;
 }
 
 .mid-bottom .places {
+    padding-top: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.mid-bottom .places div {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: column wrap; */
-    align-content: space-evenly;
-    /* padding-bottom: 80px;
-    border-bottom: 1px dashed black;
-    border: solid blue 2px;
-    background: lightpink; */
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .mid-bottom .collab {
+    padding-top: 40px;
     border-bottom: 1px dashed black;
-    border: solid green 2px;
+}
+
+.mid-bottom .collab div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 .bottom-section {
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    /* border: solid green 2px; */
 }
 
 .about-footer {
     margin-top: 40px;
-    /* border: solid red 2px; */
 }
 
-.mid-bottom .places {
-    padding-bottom: 80px;
-    border-bottom: 1px dashed black;
-    border: solid blue 2px;
-    background: lightpink;
+#button {
+    padding-right: 300px;
 }
