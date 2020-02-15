@@ -71,12 +71,38 @@ p {
     margin: 0 auto;
 }
 
+/* my code starts here */
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-top: 20px;
+    height: 100px;
+}
+
+nav a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+    margin-left: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content .top-content-img {
+    margin-bottom:20px; 
 }
 
 .top-content .text-container {
@@ -143,4 +169,125 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/* about section starts here */
+
+.top-content .about {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mid-top {
+    display: flex;
+}
+
+.mid-top .strategy {
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+}
+
+.mid-top .strategy div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.mid-top .how {
+    border-bottom: 1px dashed black;
+}
+
+.mid-top .how div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.mid-bottom {
+    display: flex;
+}
+
+.mid-bottom .places {
+    padding-top: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.mid-bottom .places div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.mid-bottom .collab {
+    padding-top: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.mid-bottom .collab div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.bottom-section {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-footer {
+    margin-top: 40px;
+}
+
+#button {
+    padding-right: 300px;
 }
