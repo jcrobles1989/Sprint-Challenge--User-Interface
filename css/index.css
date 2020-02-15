@@ -71,11 +71,6 @@ p {
     margin: 0 auto;
 }
 
-/* .about-page {
-    border: solid blue 2px;
-    background: lightgray;
-} */
-
 /* my code starts here */
 
 header {
@@ -229,6 +224,7 @@ footer nav a {
 }
 
 .mid-top .strategy {
+    margin: 0 auto;
     border-bottom: 1px dashed black;
 }
 
